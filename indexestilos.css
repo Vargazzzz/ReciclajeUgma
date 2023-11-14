@@ -9,7 +9,7 @@ body{
 
 section{
     float:left;
-    width: 90%;
+    width: 100%;
 }
 
 .seccion2{
@@ -31,7 +31,7 @@ div{
     width: 50%;
 }
 
-.bloque2{
+.bloque{
     background-color: #fec553;
     border: solid;
     border-color: #fec553;
@@ -41,32 +41,37 @@ div{
     width: 90%;
 }
 
-.bloque3{
-    background-color: #fec553;
-    border: solid;
-    border-color: #fec553;
-    border-radius: 10px;
-    margin: 150px 10px 10px 70px;
-    padding: 10px;
-    width: 90%;
+h1{
+    font-family: 'Baloo Tamma', cursive;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    font-size: 80px;
+    letter-spacing: 5px;
+    top: 10%;
+    position: absolute;
+    margin-top: -40px;
+    color: #ac93bc;
+    text-shadow: 2px 2px 2px #4f395c;
 }
 
 h2{
+    font-family: 'Baloo Tamma', cursive;
     text-transform: uppercase;
     text-align: center;
     text-shadow: 2px 2px 2px #9d7a35;
 }
 
 section p{
+    font-family: Arial, sans-serif;
     text-align: justify;
     text-indent: 30px;
     font-size: 30px;
 }
 
 .imagen1{
-    position: absolute;
-    top: 100px;
-    right: 50px;
+    position: relative;
+    left: 325px;
     border: solid;
     border-color: #86d635;
     border-radius: 10px;
@@ -83,5 +88,6 @@ div img.imagen2{
 }
 
 .lista2{
+    font-family: Arial, sans-serif;
     font-size: 30px;
 }
