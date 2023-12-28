@@ -113,3 +113,16 @@ div img.imagen2{
 	font-size: 100px;
 }
 
+li a:link{
+    text-decoration: none;
+    color: #d08cfb;
+}
+
+li a:hover{
+    color: indigo;
+}
+
+li a:visited{
+    color:darkviolet;
+}
+
